@@ -1,0 +1,1311 @@
+body{
+    font-family: 'EB Garamond', serif;
+    background-color: grey;
+    width: 100%;
+}
+
+
+
+/*login */
+
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.login h1{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: fit-content;
+    min-height: fit-content;
+}
+
+.login form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.login form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.login input{
+    max-width: 30rem;
+}
+
+.login .btn{
+    margin: auto;
+    max-width: 40vw;
+    
+}
+
+.login submit{
+    max-width: 40rem;
+    margin: auto;
+}
+
+
+
+/*logout */
+
+.logout{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.logout h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*signup */
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.signup h1{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.signup form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: fit-content;
+    min-height: fit-content;
+}
+
+.signup form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.signup form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.signup input{
+    max-width: 30rem;
+}
+
+.signup .btn{
+    margin: auto;
+    max-width: 40vw;
+    
+}
+
+.signup submit{
+    max-width: 40rem;
+    margin: auto;
+}
+
+
+
+/*password_change_form */
+
+.password-change{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.password-change h1{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.password-change form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: fit-content;
+    min-height: fit-content;
+}
+
+.password-change form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.password-change form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.password-change input{
+    max-width: 30rem;
+}
+
+.password-change .btn{
+    margin: auto;
+    max-width: 40vw;
+    
+}
+
+.password-change submit{
+    max-width: 40rem;
+    margin: auto;
+}
+
+
+
+/*password_reset_form */
+
+.password-reset{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.password-reset h1{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.password-reset form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: fit-content;
+    min-height: fit-content;
+}
+
+.password-reset form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.password-reset form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+.password-reset input{
+    max-width: 30rem;
+}
+
+.password-reset .btn{
+    margin: auto;
+    max-width: 40vw;
+    
+}
+
+.password-reset submit{
+    max-width: 40rem;
+    margin: auto;
+}
+
+
+
+/*password-reset-complete */
+
+.password-reset-done{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.password-reset-done h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*password_change_form */
+
+.password-reset-confirm{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.password-reset-confirm h1{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.password-reset-confirm form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: fit-content;
+    min-height: fit-content;
+}
+
+.password-reset-confirm form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.password-reset-confirm form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.password-reset-confirm input{
+    max-width: 30rem;
+}
+
+.password-reset-confirm .btn{
+    margin: auto;
+    max-width: 40vw;
+    
+}
+
+.password-reset-confirm submit{
+    max-width: 40rem;
+    margin: auto;
+}
+
+
+
+/*password-reset-complete */
+
+.password-reset-complete{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.password-reset-complete h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Article-List*/
+
+.article-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.article-list h1{
+    margin-top: 1rem;
+}
+
+.article-list h1 a{
+    color: black;
+}
+
+.article-list .article-list-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.article-list .card{
+    display: flex;
+    width: 50%;
+    height: 33vh;
+    background-color: lightgrey;
+    border: .5px solid black;
+}
+
+.article-list .card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+.article-list .top-of-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.article-list .title-author{
+    width: 100%;
+    height: 25%;
+    margin-left: 6%;
+}
+
+.article-list .article-list-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.article-list .article-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.article-list .card-text{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.article-list .article-list-buttons .card-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+
+/*Article Detail*/
+
+.article-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+
+.article-detail .title-author{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+.article-detail .title-author p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.article-detail-buttons{
+    display: flex;
+    justify-content: space-between;	
+}
+
+.article-detail .card-link{
+	text-decoration: none;
+    font-size: 1rem;
+    color: white;
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: .5rem;
+    height: fit-content;
+}
+
+
+/*Article Delete */
+
+.article-delete{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.article-delete h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Front Page*/
+
+.front-page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.front-page .page-photo{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-image: url('/static/images/frontpage.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.front-page h1{
+    font-size: 5rem;
+    margin: auto;
+    color: white;
+}
+
+.front-page .article-list-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.front-page .card{
+    display: flex;
+    width: 50%;
+    height: 33vh;
+    background-color: lightgrey;
+    border: .5px solid black;
+}
+
+.front-page .card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+.front-page .top-of-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.front-page .title-author{
+    width: 100%;
+    height: 25%;
+    margin-left: 6%;
+}
+
+.front-page .article-list-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.front-page .article-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.front-page .card-text{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.front-page .article-list-buttons .card-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*Local*/
+
+.local{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.local .page-photo{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-image: url('/static/images/local.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.local h1{
+    font-size: 5rem;
+    margin: auto;
+    color: white;
+}
+
+.local .article-list-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.local .card{
+    display: flex;
+    width: 50%;
+    height: 33vh;
+    background-color: lightgrey;
+    border: .5px solid black;
+}
+
+.local .card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+.local .top-of-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.local .title-author{
+    width: 100%;
+    height: 25%;
+    margin-left: 6%;
+}
+
+.local .article-list-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.local .article-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.local .card-text{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.local .article-list-buttons .card-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*Sports*/
+
+.sports{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sports .page-photo{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-image: url('/static/images/sports.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    margin-bottom: 0;
+}
+
+.sports h1{
+    font-size: 5rem;
+    margin: auto;
+    color: white;
+}
+
+.sports .article-list-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.sports .card{
+    display: flex;
+    width: 50%;
+    height: 33vh;
+    background-color: lightgrey;
+    border: .5px solid black;
+}
+
+.sports .card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+.sports .top-of-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.sports .title-author{
+    width: 100%;
+    height: 25%;
+    margin-left: 6%;
+}
+
+.sports .article-list-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.sports .article-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.sports .card-text{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.sports .article-list-buttons .card-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*Travel*/
+
+.travel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.travel .page-photo{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-image: url('/static/images/travel.jpg');
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 0;
+}
+
+.travel h1{
+    font-size: 5rem;
+    margin: auto;
+    color: white;
+}
+
+.travel .article-list-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.travel .card{
+    display: flex;
+    width: 50%;
+    height: 33vh;
+    background-color: lightgrey;
+    border: .5px solid black;
+}
+
+.travel .card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+.travel .top-of-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.travel .title-author{
+    width: 100%;
+    height: 25%;
+    margin-left: 6%;
+}
+
+.travel .article-list-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.travel .article-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.travel .card-text{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.travel .article-list-buttons .card-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+
+/*Article New */
+
+.article-new{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-new h1{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.article-new form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.article-new form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.article-new form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 100%;
+}
+
+.article-new input{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.article-new textarea{
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-new .btn{
+    margin: auto;
+    width: 60%;
+    
+}
+
+.article-new submit{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/*Article Edit */
+
+.article-edit{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: black;
+	color: lightgrey;
+	border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-edit h1{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.article-edit form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.article-edit form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.article-edit form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 100%;
+}
+
+.article-edit input{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.article-edit textarea{
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-edit .btn{
+    margin: auto;
+    width: 60%;
+    
+}
+
+.article-edit submit{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+/*******************************************************MEDIA QUERIES****************************************************************/
+
+
+
+@media (max-width: 480px) {
+    /*Article List*/
+    .article-list .card{
+        width: 100%;
+    }
+
+    .article-list .card-body{
+        width: 100%;
+    }
+
+
+
+    /*Front Page*/
+    .front-page .card{
+        width: 100%;
+    }
+
+    .front-page .card-body{
+        width: 100%;
+    }
+
+
+
+    /*Local*/
+    .local .card{
+        width: 100%;
+    }
+
+    .local .card-body{
+        width: 100%;
+    }
+
+
+
+    /*Sports*/
+    .sports .card{
+        width: 100%;
+    }
+
+    .sports .card-body{
+        width: 100%;
+    }
+
+
+
+    /*Travel*/
+    .travel .card{
+        width: 100%;
+    }
+
+    .travel .card-body{
+        width: 100%;
+    }
+    
+    
+    
+    /*Article New*/
+
+.article-new{
+    display: flex;
+    flex-direction: column;
+	background-color: black;
+	color: lightgrey;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-new h1{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.article-new form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.article-new form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.article-new form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.article-new input{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.article-new textarea{
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-new .btn{
+    margin: auto;
+    width: 60%;
+    
+}
+
+.article-new submit{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+    /*Article Edit*/
+
+.article-edit{
+    display: flex;
+    flex-direction: column;
+	background-color: black;
+	color: lightgrey;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-edit h1{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.article-edit form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.article-edit form .form-areas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.article-edit form .form-areas p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.article-edit input{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.article-edit textarea{
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-edit .btn{
+    margin: auto;
+    width: 60%;
+    
+}
+
+.article-edit submit{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/*Article Detail*/
+
+.article-detail{
+    width: 100%;
+}
+
+}
