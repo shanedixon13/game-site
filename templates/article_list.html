@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
-{% block title %}Articles{% endblock title %} 
+{% block title %}All Games{% endblock title %} 
 
 {% block content %} 
     <div class="article-list">
-        <h1><a href="{% url 'front_page' %}">Front Page</a></h1>
+        <h1><a href="{% url 'front_page' %}">Action</a></h1>
         <div class="article-list-section">
             {% for article in article_list %}
                 {% if article.category == 'Front-Page' %}
@@ -29,7 +29,7 @@
                 {% endif %} 
             {% endfor %}
         </div>
-        <h1><a href="{% url 'local' %}">Local</a></h1>
+        <h1><a href="{% url 'local' %}">Adventure</a></h1>
         <div class="article-list-section">
             {% for article in article_list %}
                 {% if article.category == 'Local' %}
@@ -55,7 +55,7 @@
                 {% endif %} 
             {% endfor %}
         </div>
-        <h1><a href="{% url 'sports' %}">Sports</a></h1>
+        <h1><a href="{% url 'sports' %}">Platformers</a></h1>
         <div class="article-list-section">
             {% for article in article_list %}
                 {% if article.category == 'Sports' %}
@@ -81,7 +81,7 @@
                 {% endif %} 
             {% endfor %}
         </div>
-        <h1><a href="{% url 'travel' %}">Travel</a></h1>
+        <h1><a href="{% url 'travel' %}">Waifu Dating Sims</a></h1>
         <div class="article-list-section">
             {% for article in article_list %}
                 {% if article.category == 'Travel' %}
