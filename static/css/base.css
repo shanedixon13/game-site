@@ -542,6 +542,16 @@ body{
     justify-content: space-between;	
 }
 
+.article-detail .image{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-image: url('/static/images/gamescreen.JPG');
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 0;
+}
+
 .article-detail .card-link{
 	text-decoration: none;
     font-size: 1rem;
@@ -550,6 +560,10 @@ body{
 	border-radius: 10px;
 	padding: .5rem;
     height: fit-content;
+}
+
+.article-detail .body{
+    margin-top: 1rem;
 }
 
 

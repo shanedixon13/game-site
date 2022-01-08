@@ -9,14 +9,16 @@
         {% endif %}
         <div class="title-author">
             <h1>{{article.title}}</h1>
-            <p>{{article.category}}</p>
-            <p class="date">-{{article.created_on}}</p>
             <p class="author">-{{article.author}}</p>
         </div>
         {% if article.author == user %}
             <a href="{% url 'article_delete' article.id %}" class="card-link" style="color: red;">Delete</a>
         {% endif %}
     </div>
-    <p>{{article.body}}</p>
+    <div class="image">
+    </div>
+    <div class="body">
+        <p>{{article.body}}</p>
+    </div>
 </div>
 {% endblock content %}
