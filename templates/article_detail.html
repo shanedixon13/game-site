@@ -2,8 +2,8 @@
 {% block title %}{{article.title}}{% endblock title %} 
 
 {% block content %}
-<div class="article-detail">
-    <div class="article-detail-buttons">
+<div class="game-detail">
+    <div class="game-detail-buttons">
         {% if article.author == user %}
             <a href="{% url 'article_edit' article.id %}" class="card-link">Edit</a>
         {% endif %}

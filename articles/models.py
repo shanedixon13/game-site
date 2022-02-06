@@ -12,6 +12,7 @@ class Article(models.Model):
     )
     created_on=models.DateTimeField(auto_now_add=True)
     category = models.CharField(max_length=200, default="None")
+    image = models.ImageField(upload_to='images')
 
 
     def __str__(self):

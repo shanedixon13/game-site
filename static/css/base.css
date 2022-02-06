@@ -431,36 +431,43 @@ body{
 
 /*Article-List*/
 
-.article-list{
+.game-list{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.article-list h1{
+.game-list h1{
     margin-top: 1rem;
 }
 
-.article-list h1 a{
+.game-list h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.game-list h2 a{
     color: black;
 }
 
-.article-list .article-list-section{
+.game-list .game-list-section{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 1rem;
 }
 
-.article-list .card{
+.game-list .card{
     display: flex;
-    width: 50%;
+    width: 40%;
     height: 33vh;
     background-color: lightgrey;
     border: .5px solid black;
+    border-radius: 3%;
 }
 
-.article-list .card-body{
+.game-list .card-body{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -468,24 +475,24 @@ body{
     justify-content: space-between;
 }
 
-.article-list .top-of-card{
+.game-list .top-of-card{
     display: flex;
     flex-direction: row;
 }
 
-.article-list .title-author{
+.game-list .title-author{
     width: 100%;
     height: 25%;
     margin-left: 6%;
 }
 
-.article-list .article-list-buttons{
+.game-list .game-list-buttons{
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-.article-list .article-info{
+.game-list .game-info{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -494,13 +501,13 @@ body{
     justify-content: space-between;
 }
 
-.article-list .card-text{
+.game-list .card-text{
     height: 100%;
     width: 100%;
     text-align: left;
 }
 
-.article-list .article-list-buttons .card-link {
+.game-list .game-list-buttons .card-link {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -510,7 +517,7 @@ body{
 
 /*Article Detail*/
 
-.article-detail{
+.game-detail{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -524,25 +531,25 @@ body{
 }
 
 
-.article-detail .title-author{
+.game-detail .title-author{
     text-align: center;
     font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
 }
-.article-detail .title-author p{
+.game-detail .title-author p{
     text-align: center;
     font-size: 1rem;
     margin: 0;
 }
 
-.article-detail-buttons{
+.game-detail-buttons{
     display: flex;
     justify-content: space-between;	
 }
 
-.article-detail .image{
+.game-detail .image{
     display: flex;
     width: 100%;
     height: 33vh;
@@ -552,7 +559,7 @@ body{
     margin-bottom: 0;
 }
 
-.article-detail .card-link{
+.game-detail .card-link{
 	text-decoration: none;
     font-size: 1rem;
     color: white;
@@ -562,14 +569,14 @@ body{
     height: fit-content;
 }
 
-.article-detail .body{
+.game-detail .body{
     margin-top: 1rem;
 }
 
 
 /*Article Delete */
 
-.article-delete{
+.game-delete{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -583,7 +590,7 @@ body{
     text-align: center;
 }
 
-.article-delete h1{
+.game-delete h1{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -613,7 +620,7 @@ body{
     color: white;
 }
 
-.front-page .article-list-section{
+.front-page .game-list-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -647,13 +654,13 @@ body{
     margin-left: 6%;
 }
 
-.front-page .article-list-buttons{
+.front-page .game-list-buttons{
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-.front-page .article-info{
+.front-page .game-info{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -668,7 +675,7 @@ body{
     text-align: left;
 }
 
-.front-page .article-list-buttons .card-link {
+.front-page .game-list-buttons .card-link {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -698,7 +705,7 @@ body{
     color: white;
 }
 
-.local .article-list-section{
+.local .game-list-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -732,13 +739,13 @@ body{
     margin-left: 6%;
 }
 
-.local .article-list-buttons{
+.local .game-list-buttons{
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-.local .article-info{
+.local .game-info{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -753,7 +760,7 @@ body{
     text-align: left;
 }
 
-.local .article-list-buttons .card-link {
+.local .game-list-buttons .card-link {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -784,7 +791,7 @@ body{
     color: white;
 }
 
-.sports .article-list-section{
+.sports .game-list-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -818,13 +825,13 @@ body{
     margin-left: 6%;
 }
 
-.sports .article-list-buttons{
+.sports .game-list-buttons{
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-.sports .article-info{
+.sports .game-info{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -839,7 +846,7 @@ body{
     text-align: left;
 }
 
-.sports .article-list-buttons .card-link {
+.sports .game-list-buttons .card-link {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -870,7 +877,7 @@ body{
     color: white;
 }
 
-.travel .article-list-section{
+.travel .game-list-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -904,13 +911,13 @@ body{
     margin-left: 6%;
 }
 
-.travel .article-list-buttons{
+.travel .game-list-buttons{
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-.travel .article-info{
+.travel .game-info{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -925,7 +932,7 @@ body{
     text-align: left;
 }
 
-.travel .article-list-buttons .card-link {
+.travel .game-list-buttons .card-link {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -935,7 +942,7 @@ body{
 
 /*Article New */
 
-.article-new{
+.game-new{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -950,7 +957,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.article-new h1{
+.game-new h1{
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -958,7 +965,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.article-new form{
+.game-new form{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -969,7 +976,7 @@ body{
     height: 100%;
 }
 
-.article-new form .form-areas{
+.game-new form .form-areas{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -977,7 +984,7 @@ body{
     height: fit-content;
 }
 
-.article-new form .form-areas p{
+.game-new form .form-areas p{
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -987,27 +994,27 @@ body{
     height: 100%;
 }
 
-.article-new input{
+.game-new input{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 
-.article-new textarea{
+.game-new textarea{
     width: 100%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.article-new .btn{
+.game-new .btn{
     margin: auto;
     width: 60%;
     
 }
 
-.article-new submit{
+.game-new submit{
     width: 100%;
     margin: auto;
 }
@@ -1016,7 +1023,7 @@ body{
 
 /*Article Edit */
 
-.article-edit{
+.game-edit{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -1031,7 +1038,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.article-edit h1{
+.game-edit h1{
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -1039,7 +1046,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.article-edit form{
+.game-edit form{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -1050,7 +1057,7 @@ body{
     height: 100%;
 }
 
-.article-edit form .form-areas{
+.game-edit form .form-areas{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -1058,7 +1065,7 @@ body{
     height: fit-content;
 }
 
-.article-edit form .form-areas p{
+.game-edit form .form-areas p{
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -1068,31 +1075,36 @@ body{
     height: 100%;
 }
 
-.article-edit input{
+.game-edit input{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 
-.article-edit textarea{
+.game-edit textarea{
     width: 100%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.article-edit .btn{
+.game-edit .btn{
     margin: auto;
     width: 60%;
     
 }
 
-.article-edit submit{
+.game-edit submit{
     width: 100%;
     margin: auto;
 }
 
+/*Article Edit */
+
+/* .homepage-pic {
+
+} */
 
 
 
@@ -1104,11 +1116,11 @@ body{
 
 @media (max-width: 480px) {
     /*Article List*/
-    .article-list .card{
+    .game-list .card{
         width: 100%;
     }
 
-    .article-list .card-body{
+    .game-list .card-body{
         width: 100%;
     }
 
@@ -1160,7 +1172,7 @@ body{
     
     /*Article New*/
 
-.article-new{
+.game-new{
     display: flex;
     flex-direction: column;
 	background-color: black;
@@ -1173,7 +1185,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.article-new h1{
+.game-new h1{
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -1181,7 +1193,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.article-new form{
+.game-new form{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -1192,7 +1204,7 @@ body{
     height: 100%;
 }
 
-.article-new form .form-areas{
+.game-new form .form-areas{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -1200,7 +1212,7 @@ body{
     height: fit-content;
 }
 
-.article-new form .form-areas p{
+.game-new form .form-areas p{
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -1210,27 +1222,27 @@ body{
     height: 100%;
 }
 
-.article-new input{
+.game-new input{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 
-.article-new textarea{
+.game-new textarea{
     width: 100%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.article-new .btn{
+.game-new .btn{
     margin: auto;
     width: 60%;
     
 }
 
-.article-new submit{
+.game-new submit{
     width: 100%;
     margin: auto;
 }
@@ -1239,7 +1251,7 @@ body{
 
     /*Article Edit*/
 
-.article-edit{
+.game-edit{
     display: flex;
     flex-direction: column;
 	background-color: black;
@@ -1252,7 +1264,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.article-edit h1{
+.game-edit h1{
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -1260,7 +1272,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.article-edit form{
+.game-edit form{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -1271,7 +1283,7 @@ body{
     height: 100%;
 }
 
-.article-edit form .form-areas{
+.game-edit form .form-areas{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -1279,7 +1291,7 @@ body{
     height: fit-content;
 }
 
-.article-edit form .form-areas p{
+.game-edit form .form-areas p{
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -1289,27 +1301,27 @@ body{
     height: 100%;
 }
 
-.article-edit input{
+.game-edit input{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 
-.article-edit textarea{
+.game-edit textarea{
     width: 100%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.article-edit .btn{
+.game-edit .btn{
     margin: auto;
     width: 60%;
     
 }
 
-.article-edit submit{
+.game-edit submit{
     width: 100%;
     margin: auto;
 }
@@ -1318,7 +1330,7 @@ body{
 
 /*Article Detail*/
 
-.article-detail{
+.game-detail{
     width: 100%;
 }
 
