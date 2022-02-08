@@ -8,20 +8,14 @@
         <h1>Adventure</h1>
     </div>
     <div class="article-list-section">
-        {% for article in article_list %}
-            {% if article.category == 'Local' %}
+        {% for game in game_list %}
+            {% if game.category == 'Local' %}
                 <div class="card">
                     <div class="card-body">
                         <div class="top-of-card">
                             <div class="title-author">
-                                <h5 class="card-title"><a href="{% url 'article_detail' article.id %}">{{article.title|truncatechars:50}}</a></h5>
-                                <h6 class="card-subtitle mb-2 text-muted author">-{{article.author}}</h6>
-                            </div>
-                            <div class="article-list-buttons">
-                                {% if article.author == user %}
-                                <a href="{% url 'article_edit' article.id %}" class="card-link">Edit</a>
-                                <a href="{% url 'article_delete' article.id %}" class="card-link" style="color: red;">Delete</a>
-                                {% endif %}
+                                <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{article.title|truncatechars:50}}</a></h5>
+                                <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
                             </div>
                         </div>
                         <div class="article-info">

@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block title %}All Games{% endblock title %} 
+
+{% block content %} 
+    <div class="game-list">
+        <h1>What Will You Play?</h1>
+        <h2><a href="{% url 'front_page' %}">Action</a></h2>
+        <div class="game-list-section">
+            {% for game in game_list %}
+                {% if game.category == 'Front-Page' %}
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="top-of-card">
+                                <div class="title-author">
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{ game.title|truncatechars:50}}</a></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
+                                </div>
+                            </div>
+                            <div class= game-info">
+                                <p class="card-text">{{game.body|truncatechars:100}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %} 
+            {% endfor %}
+        </div>
+        <h2><a href="{% url 'local' %}">Adventure</a></h2>
+        <div class="game-list-section">
+            {% for game in game_list %}
+                {% if game.category == 'Local' %}
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="top-of-card">
+                                <div class="title-author">
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{game.title|truncatechars:50}}</a></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
+                                </div>
+                            </div>
+                            <div class= game-info">
+                                <p class="card-text">{{game.body|truncatechars:100}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %} 
+            {% endfor %}
+        </div>
+        <h2><a href="{% url 'sports' %}">Platformers</a></h2>
+        <div class="game-list-section">
+            {% for game in game_list %}
+                {% if game.category == 'Sports' %}
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="top-of-card">
+                                <div class="title-author">
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{game.title|truncatechars:50}}</a></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
+                                </div>
+                            </div>
+                            <div class= game-info">
+                                <p class="card-text">{{game.body|truncatechars:100}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %} 
+            {% endfor %}
+        </div>
+        <h2><a href="{% url 'travel' %}">Waifu Dating Sims</a></h2>
+        <div class="game-list-section">
+            {% for game in game_list %}
+                {% if game.category == 'Travel' %}
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="top-of-card">
+                                <div class="title-author">
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{ game.title|truncatechars:50}}</a></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted author">-{ game.author}}</h6>
+                                </div>
+                            </div>
+                            <div class= game-info">
+                                <p class="card-text">{ game.body|truncatechars:100}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %} 
+            {% endfor %}
+        </div>   
+    </div>
+
+
+{% endblock content %}
