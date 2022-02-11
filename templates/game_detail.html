@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}{{article.title}}{% endblock title %} 
+{% block title %}{{game.title}}{% endblock title %} 
 
 {% block content %}
 <div class="game-detail">
@@ -10,6 +10,7 @@
         </div>
     </div>
     <div class="image">
+        <img src="/static/{{game.image}}"/>
     </div>
     <div class="body">
         <p>{{article.body}}</p>
