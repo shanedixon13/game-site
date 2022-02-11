@@ -7,7 +7,7 @@
         <h2><a href="{% url 'action' %}">Action</a></h2>
         <div class="game-list-section">
             {% for game in game_list %}
-                {% if game.category == 'Front-Page' %}
+                {% if game.category == 'Action' %}
                     <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
                         <div class="card-body">
                             <div class="top-of-card">
@@ -27,8 +27,8 @@
         <h2><a href="{% url 'adventure' %}">Adventure</a></h2>
         <div class="game-list-section">
             {% for game in game_list %}
-                {% if game.category == 'Local' %}
-                    <div class="card">
+                {% if game.category == 'Adventure' %}
+                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
@@ -47,8 +47,8 @@
         <h2><a href="{% url 'platform' %}">Platformers</a></h2>
         <div class="game-list-section">
             {% for game in game_list %}
-                {% if game.category == 'Sports' %}
-                    <div class="card">
+                {% if game.category == 'Platform' %}
+                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
@@ -67,12 +67,12 @@
         <h2><a href="{% url 'sim' %}">Sims</a></h2>
         <div class="game-list-section">
             {% for game in game_list %}
-                {% if game.category == 'Travel' %}
-                    <div class="card">
+                {% if game.category == 'Sim' %}
+                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
-                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{ game.title|truncatechars:50}}</a></h5>
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{ game.title|truncatechars:50}}</a></h5>
                                     <h6 class="card-subtitle mb-2 text-muted author">-{{ game.author}}</h6>
                                 </div>
                             </div>
