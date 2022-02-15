@@ -1,15 +1,15 @@
 {% extends 'base.html' %} 
 
-{% block title %}Adventure Games{% endblock title %} 
+{% block title %}Platformer Games{% endblock title %} 
 
 {% block content %}
-<div class="adventure">
+<div class="platform">
     <div class="page-photo">
-        <h1>Adventure</h1>
+        <h1>Platformers</h1>
     </div>
     <div class="game-list-section">
         {% for game in game_list %}
-            {% if game.category == 'Adventure' %}
+            {% if game.category == 'Platform' %}
                 <div class="card">
                     <div class="card-body">
                         <div class="top-of-card">
@@ -28,5 +28,4 @@
             {% endif %} 
         {% endfor %}
     </div>
-</div>
 {% endblock content %}

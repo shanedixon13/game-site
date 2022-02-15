@@ -3,24 +3,26 @@
 {% block title %}Action Games{% endblock title %} 
 
 {% block content %}
-<div class="front-page">
+<div class="action">
     <div class="page-photo">
         <h1>Action</h1>
     </div>
-    <div class="article-list-section">
+    <div class="game-list-section">
         {% for game in game_list %}
             {% if game.category == 'Action' %}
                 <div class="card">
                     <div class="card-body">
                         <div class="top-of-card">
                             <div class="title-author">
-                                <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{article.title|truncatechars:50}}</a></h5>
-                                <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
+                                <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{ game.title|truncatechars:50}}</a></h5>
                             </div>
                         </div>
-                        <div class="article-info">
-                            <p class="card-text">{{article.body|truncatechars:100}}</p>
-                        </div>
+                        <div class="bottom-of-card">
+                            <div class="image" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;" ></div>
+                                <div class= "game-info">
+                                    <p class="card-text">{{game.body|truncatechars:100}}</p>
+                                </div>
+                            </div>
                     </div>
                 </div>
             {% endif %} 

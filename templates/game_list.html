@@ -8,17 +8,19 @@
         <div class="game-list-section">
             {% for game in game_list %}
                 {% if game.category == 'Action' %}
-                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
+                    <div class="card">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
                                     <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{ game.title|truncatechars:50}}</a></h5>
-                                    <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
                                 </div>
                             </div>
-                            <div class= "game-info">
-                                <p class="card-text">{{game.body|truncatechars:100}}</p>
-                            </div>
+                            <div class="bottom-of-card">
+                                <div class="image" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;" ></div>
+                                    <div class= "game-info">
+                                        <p class="card-text">{{game.body|truncatechars:100}}</p>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 {% endif %} 
@@ -28,17 +30,19 @@
         <div class="game-list-section">
             {% for game in game_list %}
                 {% if game.category == 'Adventure' %}
-                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
+                    <div class="card">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
-                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{game.title|truncatechars:50}}</a></h5>
-                                    <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{ game.title|truncatechars:50}}</a></h5>
                                 </div>
                             </div>
-                            <div class= "game-info">
-                                <p class="card-text">{{game.body|truncatechars:100}}</p>
-                            </div>
+                            <div class="bottom-of-card">
+                                <div class="image" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;"></div>
+                                    <div class= "game-info">
+                                        <p class="card-text">{{game.body|truncatechars:100}}</p>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 {% endif %} 
@@ -48,17 +52,19 @@
         <div class="game-list-section">
             {% for game in game_list %}
                 {% if game.category == 'Platform' %}
-                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
+                    <div class="card">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
-                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{game.title|truncatechars:50}}</a></h5>
-                                    <h6 class="card-subtitle mb-2 text-muted author">-{{game.author}}</h6>
+                                    <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{ game.title|truncatechars:50}}</a></h5>
                                 </div>
                             </div>
-                            <div class= "game-info">
-                                <p class="card-text">{{game.body|truncatechars:100}}</p>
-                            </div>
+                            <div class="bottom-of-card">
+                                <div class="image" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;"></div>
+                                    <div class= "game-info">
+                                        <p class="card-text">{{game.body|truncatechars:100}}</p>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 {% endif %} 
@@ -68,17 +74,19 @@
         <div class="game-list-section">
             {% for game in game_list %}
                 {% if game.category == 'Sim' %}
-                    <div class="card" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;">
+                    <div class="card">
                         <div class="card-body">
                             <div class="top-of-card">
                                 <div class="title-author">
                                     <h5 class="card-title"><a href="{% url 'game_detail' game.id %}">{{ game.title|truncatechars:50}}</a></h5>
-                                    <h6 class="card-subtitle mb-2 text-muted author">-{{ game.author}}</h6>
                                 </div>
                             </div>
-                            <div class= "game-info">
-                                <p class="card-text">{{ game.body|truncatechars:100}}</p>
-                            </div>
+                            <div class="bottom-of-card">
+                                <div class="image" style="background-image: url('/static/{{game.image}}'); background-size:contain; background-repeat: no-repeat;"></div>
+                                    <div class= "game-info">
+                                        <p class="card-text">{{game.body|truncatechars:100}}</p>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 {% endif %} 
