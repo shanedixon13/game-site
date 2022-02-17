@@ -1,6 +1,6 @@
 body{
     font-family: 'EB Garamond', serif;
-    background-color: grey;
+    background-color: #03012C;
     width: 100%;
 }
 
@@ -9,6 +9,11 @@ body{
 .home{
     display: flex;
     flex-direction: row;
+    color: white;
+}
+
+.home h1{
+    margin-top: 5%;
 }
 
 .home img{
