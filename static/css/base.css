@@ -1,7 +1,8 @@
 body{
     font-family: 'EB Garamond', serif;
-    background-color: #03012C;
+    background-color: #190e4f;
     width: 100%;
+    color: white;
 }
 
 
@@ -499,7 +500,7 @@ body{
 }
 
 .game-list h2 a{
-    color: black;
+    color: white;
 }
 
 .game-list .game-list-section{
@@ -514,8 +515,8 @@ body{
     display: flex;
     width: 40%;
     height: 33vh;
-    background-color: lightgrey;
-    border: .5px solid black;
+    background-color: #002a22;
+    border: .5px solid white;
     border-radius: 3%;
 }
 
@@ -538,7 +539,7 @@ body{
 
 .game-list .top-of-card h5 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .game-list .bottom-of-card{
@@ -581,7 +582,7 @@ body{
     flex-direction: column;
     padding: 1rem;
 	background-color: black;
-	color: lightgrey;
+	color: #002a22;
 	border-radius: 10px;
     width: 75%;
     height: 100vh;
@@ -598,6 +599,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .game-detail .title p{
@@ -629,9 +631,15 @@ body{
     height: fit-content;
 }
 
+.game-detail a{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
 .game-detail .body{
     margin-top: 1rem;
     text-align: center;
+    color: white;
 }
 
 
@@ -660,8 +668,8 @@ body{
     display: flex;
     width: 40%;
     height: 33vh;
-    background-color: lightgrey;
-    border: .5px solid black;
+    background-color: #002a22;
+    border: .5px solid white;
     border-radius: 3%;
 }
 
@@ -684,7 +692,7 @@ body{
 
 .action .top-of-card h5 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .action .bottom-of-card{
@@ -743,8 +751,8 @@ body{
     display: flex;
     width: 40%;
     height: 33vh;
-    background-color: lightgrey;
-    border: .5px solid black;
+    background-color: #002a22;
+    border: .5px solid white;
     border-radius: 3%;
 }
 
@@ -767,7 +775,7 @@ body{
 
 .adventure .top-of-card h5 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .adventure .bottom-of-card{
@@ -826,8 +834,8 @@ body{
     display: flex;
     width: 40%;
     height: 33vh;
-    background-color: lightgrey;
-    border: .5px solid black;
+    background-color: #002a22;
+    border: .5px solid white;
     border-radius: 3%;
 }
 
@@ -850,7 +858,7 @@ body{
 
 .platform .top-of-card h5 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .platform .bottom-of-card{
@@ -909,8 +917,8 @@ body{
     display: flex;
     width: 40%;
     height: 33vh;
-    background-color: lightgrey;
-    border: .5px solid black;
+    background-color: #002a22;
+    border: .5px solid white;
     border-radius: 3%;
 }
 
@@ -933,7 +941,7 @@ body{
 
 .sim .top-of-card h5 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .sim .bottom-of-card{

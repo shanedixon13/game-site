@@ -5,6 +5,7 @@ from django.urls import reverse
 
 class Game(models.Model):
     title=models.CharField(max_length=200)
+    link=models.URLField()
     body=models.TextField()
     author=models.ForeignKey(
         get_user_model(),
